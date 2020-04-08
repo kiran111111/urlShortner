@@ -3,8 +3,8 @@ const express = require("express");
 const router = express.Router();
 const validUrl = require("valid-url");
 const shortId = require("shortid");
+const mongoose = require("mongoose");
 const config = require("config");
-const mongoose = require("mongoose")
 
 
 const urlSchema = require("../models/url");
